@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="one"><a href="#">Portfolio</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="hi">WELCOME TO PORTFOLIO</h1>
+    
+
+    <section id="home" class="section">
+        <div class="intro">
+            <div class="photo-container">
+                <img src="C:\Users\Hp\Desktop\cod.html\cod1.html\MY.JPG" alt="Your Photo" id="user-photo">
+            </div>
+            <h1>Hello, It's Me</h1>
+            <h2>MOHAMED MARZUQ THARIF S</h2>
+            <h3>And I'm a <span class="typing-animation"></span></h3>
+            <p>I'm a Web Developer for designing the own new websites. I specialize in creating stunning websites and applications.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=918220279936"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-marzuq-tharif-33119b2b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="C:\Users\Hp\Desktop\codsoft.html\index.html\(FREE COPY) Mohammed tharif Resume.pdf"><button class="btn-more">More About Me</button></a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="content">
+            <div class="photo-container">
+                <img src="C:\Users\Hp\Desktop\cod.html\cod1.html\MY.JPG" alt="Your Photo">
+            </div>
+            <div class="text">
+                <h2>About <span>Me</span></h2>
+                <p>Dynamic and ambitious first-year student pursuing an undergraduate degree in IT. Passionate about creating captivating user interfaces that seamlessly blend aesthetics with functionality. Eager to leverage my skills in UI/UX design, along with my strong attention to detail and problem-solving abilities, to contribute to innovative projects and deliver exceptional user experiences. Seeking opportunities to learn and grow in the field of design.</p>
+                <a href="C:\Users\Hp\Desktop\codsoft.html\index.html\(FREE COPY) Mohammed tharif Resume.pdf"><button class="btn-more">More About Me</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and engaging user interfaces and experiences.</p>
+                <button class="btn-service">Learn More</button>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Developing modern and responsive websites tailored to your needs.</p>
+                <button class="btn-service">Learn More</button>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-apple"></i>
+                <h3>App Design</h3>
+                <p>Designing seamless and beautiful mobile applications.</p>
+                <button class="btn-service">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="pie-chart" data-percentage="90"></div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="pie-chart" data-percentage="80"></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="pie-chart" data-percentage="75"></div>
+            </div>
+        </div>
+    </section>
+%
+    <section id="projects" class="section">
+        <h2>My <span>Projects</span></h2>
+        <div class="project-grid">
+            <div class="project-card" onclick="openProject('project1.html')">
+                <h3>To-Do List Application</h3>
+                <p>Created a simple to-do list web app where users can add, edit, and delete tasks. Implement features like task prioritization, due dates, and filtering options. This project focuses on CRUD operations (Create, Read, Update, Delete) and basic data management using HTML, CSS, and JavaScript..</p>
+            </div>
+            <div class="project-card" onclick="openProject('project2.html')">
+                <h3>E-commerce Product Showcase</h3>
+                <p>Develop a simple e-commerce product showcase website using HTML, CSS, and JavaScript. Display products with images, descriptions, and prices. Include features like sorting products, adding items to a cart (using local storage or a backend), and a checkout process. This project focuses on creating a user-friendly interface for browsing and purchasing products..</p>
+            </div>
+            <div class="project-card" onclick="openProject('project3.html')">
+                <h3>Online Quiz App</h3>
+                <p>Build an online quiz application with multiple-choice questions on various topics. Allow users to select a quiz, answer questions, and receive instant feedback on their performance. Implement a scoring system and a timer for each question. This project focuses on user interaction, form handling, and JavaScript for dynamic content..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact <span>Me</span></h2>
+        <div class="contact-icons">
+            <a href="mohammedtharif95@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+917395931407"><i class="fas fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-marzuq-tharif-33119b2b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights &copy; 2024 mohamed marzuq tharif. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
